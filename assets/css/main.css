@@ -1,0 +1,58 @@
+/*===================== 
+    MAIN SCSS
+======================*/
+/*Fonts*/
+@import url("./fonts/stylesheet.css");
+@import url("./fonts/lemon_milk_font_woff/stylesheet.css");
+@import url("./fonts/gt_presura/stylesheet.css");
+@import url("./fonts/poppins/stylesheet.css");
+@import url("./fonts/gothan/stylesheet.css");
+@import url("./fonts/din_black/stylesheet.css");
+@import url("./fonts/stylesheetWalkway.css");
+@import url("./fonts/stylesheetRoboto.css");
+.bg-main {
+  background-color: #F3F4F5 !important;
+}
+
+.v-slide-group__prev {
+  display: none !important;
+}
+
+.no-bg-color {
+  background-color: transparent !important;
+}
+
+header.control-css-header .v-toolbar__content, header.control-css-header .v-toolbar__extension {
+  padding: 0px !important;
+}
+header.control-css-header .v-progress-linear__determinate {
+  background: linear-gradient(90deg, #0a84e8 0%, #13a7de 100%) !important;
+  border-radius: 9999px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+div.control-process .v-stepper__wrapper {
+  height: 100% !important;
+}
+
+.content_video video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=main.css.map */
